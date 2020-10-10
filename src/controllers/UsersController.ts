@@ -1,7 +1,7 @@
-import { User } from '@models/User';
+import User from '@models/User';
 
 export default class UserController {
-    index () {
-        const user = User
-    }
+  index() {
+    const user = new User();
+  }
 }
